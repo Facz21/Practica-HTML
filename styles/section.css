@@ -1,0 +1,11 @@
+main section {
+    margin: 32px 0px 32px 0px;
+    padding: 20px;
+    display: grid;
+    background-color: rgb(169, 169, 169);
+    border-radius: 55px;
+}
+
+.sobre-mi{
+    display: grid;
+}
