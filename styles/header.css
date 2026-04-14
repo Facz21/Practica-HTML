@@ -1,0 +1,31 @@
+h1{
+    margin-left: 45px;
+}
+
+header {
+    background-color: rgb(169, 169, 169);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 55px; 
+}
+
+.items_list{
+    align-content: center;
+}
+
+ul {
+    background-color: white;
+    list-style-type:none;
+    margin: 0px;
+    padding: 8px;
+    display: flex;
+    gap: 25px;
+    margin-right: 45px;
+    border: 2px solid silver;
+    border-radius: 25px;
+}
+
+li {
+  font-size: 20px; 
+  margin: 0px 18px;
+}
