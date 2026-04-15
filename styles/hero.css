@@ -1,0 +1,32 @@
+main section {
+    margin: 2rem 4rem;
+    padding: 2rem;
+    background-color: rgb(159, 212, 233);
+    border-radius: 25px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.226);
+    border: 1.5px solid rgb(224, 239, 240);
+}
+
+
+.contenedor {
+
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.social_media_list  {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  
+}
+
+.foto .presentacion-img {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+  border-radius: 50%;
+  
+}
