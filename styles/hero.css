@@ -1,27 +1,30 @@
 main section {
-    margin: 2rem 4rem;
+    margin: 2rem 6rem;
     padding: 2rem;
-    background-color: rgb(159, 212, 233);
+    background-color: rgb(228, 228, 228);
     border-radius: 25px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.226);
-    border: 1.5px solid rgb(224, 239, 240);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
 }
 
 
 .contenedor {
   display: flex;
+  justify-content: space-evenly;
   gap: 2rem;
 }
 
-.social_media_list  {
-  justify-content: space-around;
+.social_media_list {
   display: flex;
-  gap: 1rem;
+  justify-content: center;
   list-style: none;
   padding: 0;
+  gap: 0;
 }
 
-
+.social_media_links:not(:last-child)::after {
+  content: "-";
+  margin: 0 1rem;
+}
 
 .social_media_list a{ 
   color: inherit; 
@@ -38,9 +41,30 @@ main section {
 
 .foto .presentacion-img {
   width: 15rem;
-  height: 25rem;
+  height: 20rem;
   object-fit: cover;
   border-radius: 25px;
   
 }
 
+.foto{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.texto p {
+  max-width: 600px;
+  font-size: 1.5rem;
+}
+
+.texto h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
